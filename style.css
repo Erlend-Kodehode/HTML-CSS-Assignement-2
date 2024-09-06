@@ -3,3 +3,76 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.info_container {
+  width: 920px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  gap: 45px;
+}
+
+.sedan_container {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+  width: 307px;
+}
+
+.suv_container {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+  width: 306px;
+}
+
+.luxury_container {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+  width: 307px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  width: 146px;
+  height: 48px;
+  border-radius: 23px;
+}
+
+img {
+  width: 64px;
+  height: 40px;
+}
+.about_text {
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 200px;
+  line-height: 25px;
+}
